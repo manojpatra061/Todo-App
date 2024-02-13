@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  /* changes needed */
+  margin: 5px; 
+  box-sizing: border-box;
+}
+body {
+  padding: 10px;
+}
+#main-container {
+  border: 1px solid black;
+  padding: 5px;
+}
+#add-todo {
+  border: 1px solid black;
+  padding: 5px;
+}
+#todo-list {
+  border: 1px solid black;
+  padding: 5px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+}
+.todo-row {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(138, 152, 147);
+}
+#todo-del-all {
+  align-self: flex-end;
+}
